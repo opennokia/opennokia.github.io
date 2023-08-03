@@ -122,10 +122,14 @@ footer p {
   background-color: #333;
 }
 
-#gallery > img {
-  max-height: 300px;
+.image {
   border: 2px dashed #503216;
   border-radius: 5px;
+  display: inline-block;
+}
+
+.image > img {
+  max-height: 300px;
 }
 
 @media (max-width: 600px) {
@@ -133,7 +137,7 @@ footer p {
     font-size: 28px;
   }
 
-  #gallery > img {
+  .image {
     max-width: 100%;
   }
   
