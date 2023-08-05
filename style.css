@@ -27,12 +27,13 @@ nav li {
   margin: 0 10px;
 }
 
-nav a {
+a {
   color: white;
   text-decoration: none;
+  border-bottom: 2px dotted #b87333;
 }
 
-nav a:hover {
+a:hover {
   color: #b87333;
 }
 
